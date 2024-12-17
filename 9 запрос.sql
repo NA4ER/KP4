@@ -1,0 +1,4 @@
+USE carshow;
+
+SELECT * FROM Cars
+WHERE DATEDIFF(CURDATE(), DateOfCSale) > 365;
